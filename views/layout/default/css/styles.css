@@ -1,0 +1,72 @@
+
+body
+{
+    background-image: url(../img/fondoPaginaPrincipal.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    font-family:'Noto Serif', serif;
+}
+
+/* Barra navegacion horizontal*/
+.menu
+{
+   width:auto;
+   
+}
+img 
+{
+    width:200px;
+    height: 100px;
+    float:left;
+}
+.iconos img
+{
+    width: 45px;
+    height: 45px;    
+}
+
+.menu nav
+{
+    height: 7em;
+    background-color: #000000;
+}
+.menu nav ul li
+{
+    float:right;
+
+}
+.menu nav ul li a
+{
+    text-decoration: none;
+    display: block;
+    padding: 1.5em;
+    margin-top: 0.6em;
+    font-size: 1.2rem;
+    color: #fcfcfc;
+    font-weight: bold;
+}
+.menu nav ul li a:hover{
+    color:rgb(174, 91, 230);
+    background-color: rgb(20, 19, 20);
+}
+.redes-sociales img
+{
+    width: 45px;
+    height: 45px;
+    margin: 10px;  
+}
+.redes-sociales ul
+{
+    list-style-position: outside;
+    margin:0;
+    padding:0;
+    width:5%;
+    background-color: #000000;
+    position:fixed;
+    height: 100%;
+    overflow:hidden;
+
+}

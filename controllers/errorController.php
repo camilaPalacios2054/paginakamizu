@@ -8,7 +8,7 @@ class errorController extends Controller
 
 	public function error()
 	{
-		$this->_view->assign('title', 'Página No Encontrada');
+		$this->_view->assign('title', 'Página no encontrada');
 		$this->_view->assign('message', 'Sitio no encontrado');
 		$this->_view->render('error');
 	}

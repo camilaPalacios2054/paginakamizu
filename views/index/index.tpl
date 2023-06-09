@@ -1,13 +1,78 @@
-<div class="col-lg-6 col-md-8 mx-auto">
-    {include file="../partials/_messages.tpl"}
-    <h1 class="fw-secondary">Bienvenidos a AxiomaFrame</h1>
-    <p class="lead text-muted">Una propuesta de desarrollo de software simple, escalable, basado en buenas prácticas de programación y el uso de MVC (Modelo-vista-Controlador) como patrón de diseño.</p>
-    <p>
-    <p class="lead text-muted">Te ofrecemos una manera sencilla de crear software altamente escalable a partir de configuraciones mínimas, pero si tu proyecto crece, podrás utilizar todas las herramientas que desees.</p>
-    <p>
-    <p class="lead text-muted"><strong>AxiomaFrame</strong>... sencillamente simple.</p>
-    <p>
-        <a href="https://github.com/segundogaldames/axiomaframe/blob/main/README.md" target="_blank" class="btn btn-secondary my-2">Mas Información</a>
-        <a href="https://github.com/segundogaldames/axiomaframe/blob/main/DOCUMENT.md" target="_blank" class="btn btn-secondary my-2">Documentación</a>
-    </p>
-</div>
+<body>
+    <header>
+        <div class="menu">
+            <img src="{$_layoutParams.route_img}logokami.jpg" alt""">
+            
+        <nav>
+            
+            <ul>
+                <div class="iconos">
+                <li>
+                    <a href="#">
+                        <img src="{$_layoutParams.route_img}comprar.jpg">
+                        
+                    </a> 
+                </li>
+                <li>
+                    <a href="#">
+                        
+                        <img src="{$_layoutParams.route_img}usuario.jpg">
+                    </a> 
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="{$_layoutParams.route_img}buscador.jpg">
+                        
+                    </a> 
+                </li>
+                </div>
+                <li>
+                    <a>Contacto</a> 
+                </li>
+                <li>
+                    <a href="#">Delivery</a> 
+                </li>
+                <li>
+                    <a href="#">Menú</a> 
+                </li>
+            </ul>
+            
+        </nav>
+    </div>
+
+    </header>
+    <footer>
+        <nav>
+            <div class="redes-sociales">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="{$_layoutParams.route_img}twitter.jpg">
+                        
+                    </a> 
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="{$_layoutParams.route_img}instagram.jpg">
+                        
+                    </a> 
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="{$_layoutParams.route_img}facebook.jpg">
+                        
+                    </a> 
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </footer>
+
+
+
+
+
+
+
+    
+</body>
