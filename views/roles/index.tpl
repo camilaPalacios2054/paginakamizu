@@ -5,7 +5,8 @@
         </h5>
         <div class="card-body">
             {include file="../partials/_messages.tpl"}
-            {if isset($roles)&&count($roles)}
+            
+            {if isset($roles) && count($roles)}
                 <table class="table table-hover">
                     <thead>
                         <tr>
@@ -17,15 +18,17 @@
                         {foreach from=$roles item=model}
                             <tr>
                                 <td>{$model.id}</td>
-                                <ts>{$model.nombre}</td>
+                                <td>{$model.nombre}</td>
                             </tr>
                         {/foreach}
                     </tbody>
                 </table>
+                
             {else}
                 <p class="text-info">{$mensaje}</p>
 
-            {/if}    
+            {/if}  
+
         </div>
 
     </div>

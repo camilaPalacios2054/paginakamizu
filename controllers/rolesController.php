@@ -37,8 +37,8 @@ class rolesController extends Controller
 
     public function store()
     {
-        $this->validateForm("roles/create",
-        ['nombre'=>Filter::getText('nombre')
+        $this->validateForm("roles/create",[
+            'nombre'=>Filter::getText('nombre')
         ]);
 
         $role=Role::select('id')->where('nombre',Filter::getText('nombre'))->first();
