@@ -9,9 +9,9 @@
 
                     <form action="{$_layoutParams.root}{$process}" method="post">
                         <div class="mb-3">
-                            <label for="rol" class="form-label">Rol</label>
-                            <input type="text" name="nombre" value="{$role.nombre|default:""}" class="form-control" id="rol" aria-describedby="rol">
-                            <div id="rol" class="form-text text-danger">Ingrese el rol del usuario</div>
+                            <label for="rol" class="form-label">Categoria</label>
+                            <input type="text" name="nombre" value="{$categoria.nombre|default:""}" class="form-control" id="categoria" aria-describedby="rol">
+                            <div id="rol" class="form-text text-danger">Ingrese nueva categoria</div>
                         </div>
 
                         <input type="hidden" name="send" value="{$send}">

@@ -11,7 +11,7 @@
 
 
    </head>
-   <body class="p-3 mb-2 bg-dark text-white">
+   <body class="p-3 mb-2 bg-white text-dark">
     {include file="menu.tpl"}
     
       <div class="container-fluid">
@@ -21,12 +21,14 @@
 
                 <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                Usuarios
+                Menú
                 </button>
               
                 <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="{$_layoutParams.root}roles">Roles</a></li>
                 <li><a class="dropdown-item" href="{$_layoutParams.root}usuarios">Usuarios</a></li>
+                <li><a class="dropdown-item" href="{$_layoutParams.root}categorias">Categoria</a></li>
+                <li><a class="dropdown-item" href="{$_layoutParams.root}usuarios">Productos</a></li>
                 </ul>
               
 
